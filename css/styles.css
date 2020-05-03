@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Fondamento', cursive;
+  /* Font will fall back to cursive if the 1st font is not found*/
+  font-size: 4rem;
+  /* 1em = 16px*/
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  /*100% = 1em = 16px*/
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+p {}
+
+hr {
+  border-style: dotted none none none;
+  width: 6rem;
+  border-width: thick;
+  color: grey;
+}
+
+/********************************* Class level CSS *****************************************/
+.top-container {
+  background-color: #beebe9;
+  padding: 100px 0 0 0;
+  font-weight: bold;
+}
+
+.programmer-span {
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+
+.designer-span {
+  text-shadow: 1px 1px 2px pink;
+}
+
+.top-cloud {
+  position: relative;
+  left: 180px;
+}
+
+.bottom-cloud {
+  position: relative;
+  right: 260px;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.android-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.developer-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  font-weight: lighter;
+  padding-bottom: 50px;
+}
+
+.btn-contact-me {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.btn-contact-me:hover {
+  background-color: gold;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  font-weight: lighter;
+  padding: 30px 0;
+}
+
+.footer-link {
+  padding: 20px;
+}
+
+.footer-link-container {
+  margin: 30px 0;
+}
+
+.copyright-para {
+  margin: 0;
+  color: white;
+  font-size: 10px;
+}
