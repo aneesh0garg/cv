@@ -72,10 +72,10 @@ hr {
   padding: 0 2rem 0 2rem;
 }
 .skill-row {
-  width: 50%;
   margin: 100px auto;
   text-align: left;
   line-height: 2;
+  padding: 0 12%;
 }
 
 .android-image {
