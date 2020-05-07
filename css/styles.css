@@ -67,6 +67,10 @@ hr {
   right: 260px;
 }
 
+.middle-container {
+  margin-bottom: 80px;
+  padding: 0 2rem 0 2rem;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto;
@@ -137,6 +141,8 @@ hr {
 
 .footer-link {
   padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .footer-link-container {
@@ -147,5 +153,5 @@ hr {
 .copyright-para {
   margin: 0;
   color: #EAF6F6;
-  font-size: 10px;
+  font-size: 13px;
 }
